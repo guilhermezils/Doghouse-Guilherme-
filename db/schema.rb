@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2021_03_07_221318) do
     t.integer "weight"
     t.string "breed"
     t.integer "renter_id", null: false
+    t.text "bio"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["renter_id"], name: "index_dogs_on_renter_id"

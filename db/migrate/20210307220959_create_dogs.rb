@@ -5,6 +5,7 @@ class CreateDogs < ActiveRecord::Migration[6.1]
       t.integer :weight
       t.string :breed
       t.belongs_to :renter, null: false, foreign_key: true
+      t.text :bio
 
       t.timestamps
     end
