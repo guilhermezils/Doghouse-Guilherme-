@@ -70,7 +70,7 @@ Apartment.create(address: Faker::Address.street_address ,description: "From the 
 Apartment.create(address: Faker::Address.street_address ,description: "The apartment is equipped with a huge kitchen and one modern bathroom, it also has a fairly small living room, four bedrooms, a small dining room, a bar and a cozy garage." ,price: (800..2000).to_a.sample)
 Apartment.create(address: Faker::Address.street_address ,description: "The apartment is equipped with an average kitchen and one modern bathroom, it also has a generous living room, four bedrooms, a cozy dining room and a spacious basement." ,price: (800..2000).to_a.sample)
 Apartment.create(address: Faker::Address.street_address ,description: "The apartment is equipped with an average kitchen and one average bathroom, it also has a small living room, four bedrooms, a spacious dining room, a library and a large storage room." ,price: (800..2000).to_a.sample)
-Apartment.create(address: Faker::Address.street_address ,description: "From the outside this apartment looks lavish. It has been built with spruce wood and has red pine wooden decorations. Small, half rounded windows add to the overall look of the house and have been added to the house in a very asymmetric way." ,price: (800..2000).to_a.sample)
+Apartment.create(address: Faker::Address.street_address ,description: "From the outside this house looks lavish. It has been built with spruce wood and has red pine wooden decorations. Small, half rounded windows add to the overall look of the house and have been added to the house in a very asymmetric way." ,price: (800..2000).to_a.sample)
 
 
 
